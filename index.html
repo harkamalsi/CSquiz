@@ -5,10 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>Quiz</title>
+  <title>Computer Science Quiz</title>
 </head>
 <body>
   
+  <!-- Top section -->
+  <div class="intro py-3 bg-white text-center">
+    <div class="container">
+      <h2 class="text-primary display-3 my-4">Computer Science Quiz</h2>
+    </div>
+  </div>
+
+  <!-- Quiz section -->
+  <div class="quiz py-4 bg-primary">
+    <div class="container">
+      <h2 class="my-5 text-white text-center">Are you ready?</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">What is the time complexity of Build Heap operation?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="A">
+            <label class="form-check-label">O(n logn)</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">O(n)</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">What is recurrence for worst case of QuickSort and what is the time complexity in Worst case?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="A">
+            <label class="form-check-label">Recurrence is T(n) = T(n-1) + O(n) and time complexity is O(n^2)</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">Recurrence is T(n) = T(n-2) + O(n) and time complexity is O(n^2)</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">A n Internet Service Provider (ISP) has the following chunk of CIDR-based IP addresses available with it: 245.248.128.0/20. The ISP wants to give half of this chunk of addresses to Organization A, and a quarter to Organization B, while retaining the remaining with itself. Which of the following is a valid allocation of addresses to A and B?</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="A">
+            <label class="form-check-label">245.248.136.0/21 and 245.248.128.0/22</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">245.248.132.0/22 and 245.248.132.0/21</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">P is a 16-bit signed integer. The 2's complement representation of P is (F87B)16.The 2's complement representation of 8*P</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="A">
+            <label class="form-check-label">(C3D8)<sub>16</sub></label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">(F878)<sub>16</sub></label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">The major shortcoming of waterfall model is</p>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="A">
+            <label class="form-check-label">the difficulty in accommodating changes after requirement analysis</label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <input type="radio" name="q5" value="B">
+            <label class="form-check-label">the difficult in accommodating changes after feasibility analysis</label>
+          </div>
+        </div>
+        <div class="">
+          <input type="submit" class="btn btn-light my-3">
+        </div>
+      </form>
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
